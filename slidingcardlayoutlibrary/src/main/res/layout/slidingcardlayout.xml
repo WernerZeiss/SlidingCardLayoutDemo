@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/slidingcard_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c0c0c0"
+        android:overScrollMode="never"
+        android:paddingTop="40dp"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/slidingcard_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text="DefaultTitle"
+        android:paddingLeft="15dp"/>
+</RelativeLayout>
