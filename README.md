@@ -53,10 +53,13 @@
 
 * XML属性
 
-sliding_card_head_text  -->设置标题文字
-sliding_card_head_text_color  -->设置标题文字颜色
-sliding_card_head_text_size -->设置标题文字大小
-sliding_card_head_background  -->设置标题文字背景颜色
+属性名 | 说明
+----|------
+sliding_card_head_text | 设置标题文字
+sliding_card_head_text_color | 设置标题文字颜色
+sliding_card_head_text_size | 设置标题文字大小
+sliding_card_head_background | 设置标题文字背景颜色
+
 
 * 方法属性
 
